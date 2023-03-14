@@ -1,0 +1,30 @@
+.cards:hover{
+    transform: scale(102%);
+}
+.cards{
+    padding-top: 1em;
+}
+.prebtn{
+    position: relative;left: 5em; top: -20em;   
+}
+.nexbtn{
+    position: relative;right: 5em;
+    top: -20em;
+}
+#ppic{
+    width: 90%;
+    height: 99%;
+    opacity: 80%;
+    transition: opacity 1s;
+}
+#ppic:hover{
+    opacity: 100%;
+    transition: opacity 1s;
+}
+.subbtn{
+    border-radius: 6px;
+}
+.subbtn:hover{
+    transform: scale(96%);
+    background-color: rgb(255, 228, 203);
+}
